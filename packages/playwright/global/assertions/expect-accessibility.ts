@@ -71,7 +71,8 @@ export const expectAccessibility = async ({
             const contrastExcludedSelectors = [
                 '.active-parent.menu-item-parent.position-relative', // Reason_2
                 '.callout strong', // Reason_2
-                '.callout kbd', // Reason_2
+                '.callout kbd', // Reason_2,
+                '.callout p', // Reason_1
                 '.form-select', // Reason_3
                 '.modal .callout-body', // Reason_1
                 '#DeploymentStep_Script', // Reason_1
